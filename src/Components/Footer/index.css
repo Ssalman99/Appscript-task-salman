@@ -1,0 +1,154 @@
+.footer-bg-container {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.footer-top-section {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.search-container {
+  width: 50%;
+}
+
+.footer-heading {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.footer-description {
+  font-size: small;
+}
+
+.search-coimbain-container {
+  display: flex;
+}
+
+.search {
+  width: 50%;
+  height: 20%;
+  padding: 10px;
+  margin-right: 2%;
+}
+
+.subcription-button {
+  border: 1px solid gray;
+  background-color: transparent;
+  color: gray;
+  box-shadow: grey;
+  width: 100px;
+  padding: 10px;
+  height: 20%;
+}
+
+.usd-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.usd-img {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  margin-right: 5%;
+}
+
+.span-usd {
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.footer-button-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.details-section {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.payments-icons-container {
+  display: flex;
+}
+
+.payment-icons {
+  height: 35px;
+  width: 35px;
+  margin-right: 1%;
+  border-radius: 5px;
+}
+.follow-us-section {
+  margin-right: 14%;
+}
+.footer-container-for-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-bg-container {
+    display: none;
+  }
+  .footer-container-for-mobile {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    padding: 4%;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .footer-heading {
+    font-size: x-small;
+  }
+  .footer-description {
+    font-size: xx-small;
+  }
+  .search {
+    height: 20px;
+    padding: 2px;
+    font-size: xx-small;
+  }
+  .subcription-button {
+    height: 20px;
+    padding: 2px;
+    font-size: xx-small;
+  }
+  .span-usd {
+    font-size: xx-small;
+  }
+  .usd-img {
+    height: 20px;
+    width: 20px;
+  }
+  .payment-icons {
+    height: 25px;
+    width: 25px;
+    flex-grow: 1;
+  }
+  .payments-icons-container {
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-right: 0px;
+  }
+  .drop-button-fotter {
+    color: aliceblue;
+    border: none;
+    background-color: transparent;
+    align-self: flex-start;
+    padding: 0px;
+    margin: 0px;
+    font-size: medium;
+  }
+  .drop-container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
